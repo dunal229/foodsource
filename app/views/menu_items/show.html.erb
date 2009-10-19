@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @menu_item.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @menu_item.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_menu_item_path(@menu_item) %> |
+<%= link_to 'Back', menu_items_path %>
